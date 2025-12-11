@@ -76,17 +76,17 @@ params:
   twitter_card: 'summary_large_image'
   twitter_site: '@wayistcoach'
   
-  # Funnel links to community and resources
+# Funnel links to community and resources
   funnels:
     community: 'https://wayist.life'
     books: 'https://wayism.org/books'
     main_site: 'https://wayism.org'
     for_ai: 'https://wayism.org/for-ai'
     faq: 'https://wayism.org/faq'
-    (sanskrit) mahamarga: 'https://mahamarga.org'
-    (chinese) daofa: 'https://daofa.org'
-    (german) wegismus: 'https://wegismus.org'
-    (spanish) caminismo: 'https://caminismo.org'
+    mahamarga: 'https://mahamarga.org'
+    daofa: 'https://daofa.org'
+    wegismus: 'https://wegismus.org'
+    caminismo: 'https://caminismo.org'
   
   # Search configuration
   search:
