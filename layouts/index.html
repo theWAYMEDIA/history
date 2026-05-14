@@ -18,25 +18,19 @@
                     <div class="stat-item">
                         <span class="stat-number">5,000+</span>
                         <span class="stat-label">
-                            {{ if eq .Language.Lang "es" }}Años{{ else if eq .Language.Lang "de" }}Jahre{{ else }}Years{{ end }}
+                            {{ if eq .Language.Lang "es" }}Años{{ else if eq .Language.Lang "de" }}Jahre{{ else if eq .Language.Lang "ja" }}年{{ else }}Years{{ end }}
                         </span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">{{ len (where .Site.RegularPages "Section" "periods") }}</span>
+                        <span class="stat-number">5</span>
                         <span class="stat-label">
-                            {{ if eq .Language.Lang "es" }}Períodos{{ else if eq .Language.Lang "de" }}Perioden{{ else }}Periods{{ end }}
+                            {{ if eq .Language.Lang "es" }}Períodos{{ else if eq .Language.Lang "de" }}Perioden{{ else if eq .Language.Lang "ja" }}時代{{ else }}Periods{{ end }}
                         </span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">{{ len (where .Site.RegularPages "Section" "regions") }}</span>
+                        <span class="stat-number">5</span>
                         <span class="stat-label">
-                            {{ if eq .Language.Lang "es" }}Regiones{{ else if eq .Language.Lang "de" }}Regionen{{ else }}Regions{{ end }}
-                        </span>
-                    </div>
-                    <div class="stat-item">
-                        <span class="stat-number">{{ len (where .Site.RegularPages "Section" "figures") }}</span>
-                        <span class="stat-label">
-                            {{ if eq .Language.Lang "es" }}Figuras{{ else if eq .Language.Lang "de" }}Figuren{{ else }}Figures{{ end }}
+                            {{ if eq .Language.Lang "es" }}Regiones{{ else if eq .Language.Lang "de" }}Regionen{{ else if eq .Language.Lang "ja" }}地域{{ else }}Regions{{ end }}
                         </span>
                     </div>
                 </div>
