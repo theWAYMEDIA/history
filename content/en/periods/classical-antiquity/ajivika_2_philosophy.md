@@ -17,6 +17,8 @@ topics: ["metaphysics", "ancient philosophy", "spiritual evolution", "consciousn
 author: "Wayism Historical Archive"
 reading_time: 15
 language: "en"
+periods: ["classical-antiquity"]
+regions: ["india-southeast-asia"]
 
 # Book Integration
 book_reference: "theWAY to the Heart Mind"

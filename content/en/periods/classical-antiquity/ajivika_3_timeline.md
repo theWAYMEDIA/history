@@ -17,6 +17,8 @@ topics: ["religious history", "political power and spirituality", "minority trad
 author: "Wayism Historical Archive"
 reading_time: 13
 language: "en"
+periods: ["classical-antiquity"]
+regions: ["india-southeast-asia"]
 
 # Book Integration
 book_reference: "Child of Enki, You are in Enlil"

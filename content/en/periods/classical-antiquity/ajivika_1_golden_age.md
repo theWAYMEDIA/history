@@ -17,6 +17,8 @@ topics: ["spiritual awakening", "comparative philosophy", "ancient wisdom tradit
 author: "Wayism Historical Archive"
 reading_time: 12
 language: "en"
+periods: ["classical-antiquity"]
+regions: ["india-southeast-asia"]
 
 # Book Integration
 book_reference: "Child of Enki, You are in Enlil"

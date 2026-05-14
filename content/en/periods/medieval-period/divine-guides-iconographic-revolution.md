@@ -17,6 +17,8 @@ topics: ["religious-revolution", "spiritual-intermediaries", "mystical-tradition
 author: "Wayism Historical Team"
 reading_time: 12
 language: "en"
+periods: ["medieval-period"]
+regions: ["india-southeast-asia"]
 
 # Book Integration
 book_reference: "theWAY to the Divine Taras"

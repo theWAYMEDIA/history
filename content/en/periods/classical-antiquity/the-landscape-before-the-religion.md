@@ -17,6 +17,8 @@ topics: ["suppression of Wayist teaching", "comparative philosophy", "Gnostic tr
 author: "Jean du Plessis"
 reading_time: 20
 language: "en"
+periods: ["classical-antiquity"]
+regions: ["mediterranean-europe"]
 
 # Book Integration
 book_reference: "Jesus the Wayist"
