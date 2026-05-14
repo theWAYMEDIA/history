@@ -22,7 +22,7 @@
             {{ range .Site.Languages }}
                 {{ $lang := .Lang }}
                 {{ $fallback := "/" }}
-                {{ if ne $lang $.Site.DefaultContentLanguage }}
+                {{ if ne $lang "en" }}
                     {{ $fallback = printf "/%s/" $lang }}
                 {{ end }}
                 {{ $url := $fallback }}
