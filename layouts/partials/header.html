@@ -14,27 +14,13 @@
         </div>
     </div>
     
-    <!-- Language Switcher - always visible -->
-    <div class="language-switcher">
-        <label for="language-select" class="visually-hidden">Choose Language</label>
-        <select id="language-select" class="language-select" onchange="window.location.href=this.value">
-            {{ $page := . }}
-            {{ range .Site.Languages }}
-                {{ $lang := .Lang }}
-                {{ $fallback := "/" }}
-                {{ if ne $lang "en" }}
-                    {{ $fallback = printf "/%s/" $lang }}
-                {{ end }}
-                {{ $url := $fallback }}
-                {{ range $page.AllTranslations }}
-                    {{ if eq .Language.Lang $lang }}{{ $url = .RelPermalink }}{{ end }}
-                {{ end }}
-                <option value="{{ $url }}" {{ if eq $lang $page.Language.Lang }}selected{{ end }}>
-                    {{ .LanguageName }}
-                </option>
-            {{ end }}
-        </select>
-    </div>
+    <!-- Language Switcher -->
+    <nav class="language-switcher" aria-label="Language">
+        <a href="{{ "/" | relURL }}" class="lang-link{{ if eq .Language.Lang "en" }} lang-active{{ end }}">EN</a>
+        <a href="{{ "/es/" | relURL }}" class="lang-link{{ if eq .Language.Lang "es" }} lang-active{{ end }}">ES</a>
+        <a href="{{ "/de/" | relURL }}" class="lang-link{{ if eq .Language.Lang "de" }} lang-active{{ end }}">DE</a>
+        <a href="{{ "/ja/" | relURL }}" class="lang-link{{ if eq .Language.Lang "ja" }} lang-active{{ end }}">JA</a>
+    </nav>
     
     <!-- Search Toggle (Mobile) -->
     <div class="search-toggle-mobile">

@@ -164,21 +164,32 @@ img {
 
 /* Language Switcher */
 .language-switcher {
+    display: flex;
+    gap: 0.25rem;
     margin-right: 1rem;
+    align-items: center;
 }
 
-.language-select {
-    background: rgba(255,255,255,0.1);
-    border: 1px solid rgba(255,255,255,0.3);
-    color: white;
-    padding: 0.5rem;
-    border-radius: 4px;
-    font-size: 0.9rem;
+.lang-link {
+    color: rgba(255,255,255,0.7);
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding: 0.2rem 0.45rem;
+    border-radius: 3px;
+    border: 1px solid rgba(255,255,255,0.2);
+    transition: background 0.15s, color 0.15s;
 }
 
-.language-select option {
-    background: #8b4513;
+.lang-link:hover {
+    background: rgba(255,255,255,0.15);
     color: white;
+}
+
+.lang-active {
+    background: rgba(255,255,255,0.2);
+    color: white;
+    border-color: rgba(255,255,255,0.5);
 }
 
 /* Mobile Menu Toggle */
