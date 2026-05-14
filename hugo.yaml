@@ -52,6 +52,15 @@ languages:
     params:
       description: 'Umfassendes historisches Archiv zur Dokumentation der Wegistischen Philosophie und Praxis über 5,000 Jahre menschlicher Zivilisation'
 
+  ja:
+    title: 'ウェイイズムの歴史：ザ・ウェイの5000年'
+    weight: 4
+    languageName: '日本語'
+    languageCode: 'ja-JP'
+    contentDir: 'content/ja'
+    params:
+      description: 'ウェイイズムの哲学と実践を5000年の人類文明にわたって記録した包括的な歴史アーカイブ'
+
 # Custom taxonomies for historical organization
 taxonomies:
   period: 'periods'
@@ -94,6 +103,7 @@ params:
     placeholder_en: 'Search 5,000 years of Wayist history...'
     placeholder_es: 'Buscar 5,000 años de historia caminista...'
     placeholder_de: 'Suche 5,000 Jahre wegistische Geschichte...'
+    placeholder_ja: '5,000年のウェイイズムの歴史を検索...'
     max_results: 20
     min_query_length: 3
   
@@ -155,7 +165,12 @@ menus:
       url: '/figures/'
       weight: 30
       identifier: 'figures'
-     
+
+    - name: 'Texts'
+      url: '/texts/'
+      weight: 35
+      identifier: 'texts'
+
     - name: 'About'
       url: '/about/'
       weight: 40
