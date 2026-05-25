@@ -6,7 +6,7 @@ featured: true
 
 Welcome to the comprehensive historical archive of Wayism, documenting the presence and development of "The Way" across 5,000+ years of human civilization.
 
-This archive serves as a scholarly resource for understanding how Wayist principles have manifested across different cultures, known by various names: DaoFa (Chinese), Mahamarga (Sanskrit), Caminismo (Spanish), and Wegismus (German).
+This archive serves as a scholarly resource for understanding how Wayist principles have manifested across different cultures, known by various names: <a href="https://daofa.org" target="_blank" rel="noopener noreferrer">DaoFa</a> (Chinese), <a href="https://michibito.org" target="_blank" rel="noopener noreferrer">Michibito</a> (Japanese), <a href="https://mahamarga.org" target="_blank" rel="noopener noreferrer">Mahamarga</a> (Sanskrit), <a href="https://caminismo.org" target="_blank" rel="noopener noreferrer">Caminismo</a> (Spanish), and Wegismus (German). The primary English hub is <a href="https://wayism.org" target="_blank" rel="noopener noreferrer">Wayism.org</a>.
 
 ## About This Archive
 
