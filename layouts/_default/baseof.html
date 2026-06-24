@@ -2,6 +2,7 @@
 <html lang="{{ .Site.Language.Lang }}" dir="ltr">
 <head>
     {{ partial "head.html" . }}
+    {{ block "extra_head" . }}{{ end }}
 </head>
 <body class="wayism-historical">
     <!-- Skip to content for accessibility -->
@@ -42,5 +43,6 @@
     {{ if .Site.Params.analytics.google_analytics_id }}
     <script src="/js/analytics.js" defer></script>
     {{ end }}
+    {{ block "extra_scripts" . }}{{ end }}
 </body>
 </html>

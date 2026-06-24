@@ -53,6 +53,9 @@ jobs:
             --gc \
             --minify \
             --baseURL "https://wayism.com/"
+      - name: Index with Pagefind
+        run: npx pagefind --site public
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
