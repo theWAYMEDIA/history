@@ -176,6 +176,11 @@ menus:
       weight: 40
       identifier: 'about'
 
+    - name: 'Search'
+      url: '/search/'
+      weight: 45
+      identifier: 'search'
+
 # Markup configuration for better content rendering
 markup:
   goldmark:
